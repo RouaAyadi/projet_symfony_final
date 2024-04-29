@@ -14,8 +14,11 @@ return [
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/xdebug' => [[['_route' => '_profiler_xdebug', '_controller' => 'web_profiler.controller.profiler::xdebugAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
+        '/db' => [[['_route' => 'app_db', '_controller' => 'App\\Controller\\DbController::index'], null, null, null, false, false, null]],
+        '/db/first' => [[['_route' => 'db.first', '_controller' => 'App\\Controller\\DbController::first'], null, null, null, false, false, null]],
         '/placeorder' => [[['_route' => 'app_place_order', '_controller' => 'App\\Controller\\PlaceOrderController::index'], null, null, null, false, false, null]],
         '/productss' => [[['_route' => 'app_productss', '_controller' => 'App\\Controller\\ProductssController::index'], null, null, null, false, false, null]],
+        '/users' => [[['_route' => 'app_users', '_controller' => 'App\\Controller\\UsersController::index'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

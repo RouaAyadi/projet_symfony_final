@@ -206,6 +206,6 @@ class __TwigTemplate_14cc06e9865ea87c7c587db16e16b0f8 extends Template
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\Users\\lenovo\\Documents\\GitHub\\projet_final\\templates\\base.html.twig");
+", "base.html.twig", "C:\\symfony\\projet_final\\templates\\base.html.twig");
     }
 }

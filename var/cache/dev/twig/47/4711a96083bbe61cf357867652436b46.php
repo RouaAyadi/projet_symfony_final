@@ -77,6 +77,6 @@ class __TwigTemplate_2c61bd7e0e53ecec42da4a4c77d0e288 extends Template
 
     public function getSourceContext()
     {
-        return new Source("{{  include  }}", "place_order/index.html.twig", "C:\\Users\\lenovo\\Documents\\GitHub\\projet_final\\templates\\place_order\\index.html.twig");
+        return new Source("{{  include  }}", "place_order/index.html.twig", "C:\\symfony\\projet_final\\templates\\place_order\\index.html.twig");
     }
 }

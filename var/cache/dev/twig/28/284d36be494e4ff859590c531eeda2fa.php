@@ -166,6 +166,6 @@ class __TwigTemplate_c4c6bc5838a08c58831b4748126586e7 extends Template
     </ul>
 </div>
 {% endblock %}
-", "productss/index.html.twig", "C:\\Users\\lenovo\\Documents\\GitHub\\projet_final\\templates\\productss\\index.html.twig");
+", "productss/index.html.twig", "C:\\symfony\\projet_final\\templates\\productss\\index.html.twig");
     }
 }

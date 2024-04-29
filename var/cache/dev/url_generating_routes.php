@@ -16,6 +16,9 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
+    'app_db' => [[], ['_controller' => 'App\\Controller\\DbController::index'], [], [['text', '/db']], [], [], []],
+    'db.first' => [[], ['_controller' => 'App\\Controller\\DbController::first'], [], [['text', '/db/first']], [], [], []],
     'app_place_order' => [[], ['_controller' => 'App\\Controller\\PlaceOrderController::index'], [], [['text', '/placeorder']], [], [], []],
     'app_productss' => [[], ['_controller' => 'App\\Controller\\ProductssController::index'], [], [['text', '/productss']], [], [], []],
+    'app_users' => [[], ['_controller' => 'App\\Controller\\UsersController::index'], [], [['text', '/users']], [], [], []],
 ];
