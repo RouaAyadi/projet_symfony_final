@@ -94,62 +94,32 @@ class __TwigTemplate_acaa8c1ac12cfe27dda2d10982cf8891 extends Template
         <nav class=\"sb-sidenav accordion sb-sidenav-dark\" id=\"sidenavAccordion\">
             <div class=\"sb-sidenav-menu\">
                 <div class=\"nav\">
-                    <div class=\"sb-sidenav-menu-heading\">Core</div>
-                    <a class=\"nav-link\" href=\"index.html\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-tachometer-alt\"></i></div>
+                        <div class=\"sb-sidenav-menu-heading\">Main</div>
+                    <a class=\"nav-link\" href=\"";
+        // line 48
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("users");
+        yield "\">
+                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-chart-line\"></i></div>
                         Dashboard
                     </a>
-                    <div class=\"sb-sidenav-menu-heading\">Interface</div>
-                    <a class=\"nav-link collapsed\" href=\"#\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseLayouts\" aria-expanded=\"false\" aria-controls=\"collapseLayouts\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-columns\"></i></div>
-                        Layouts
-                        <div class=\"sb-sidenav-collapse-arrow\"><i class=\"fas fa-angle-down\"></i></div>
-                    </a>
-                    <div class=\"collapse\" id=\"collapseLayouts\" aria-labelledby=\"headingOne\" data-bs-parent=\"#sidenavAccordion\">
-                        <nav class=\"sb-sidenav-menu-nested nav\">
-                            <a class=\"nav-link\" href=\"layout-static.html\">Static Navigation</a>
-                            <a class=\"nav-link\" href=\"layout-sidenav-light.html\">Light Sidenav</a>
-                        </nav>
-                    </div>
-                    <a class=\"nav-link collapsed\" href=\"#\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapsePages\" aria-expanded=\"false\" aria-controls=\"collapsePages\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-book-open\"></i></div>
-                        Pages
-                        <div class=\"sb-sidenav-collapse-arrow\"><i class=\"fas fa-angle-down\"></i></div>
-                    </a>
-                    <div class=\"collapse\" id=\"collapsePages\" aria-labelledby=\"headingTwo\" data-bs-parent=\"#sidenavAccordion\">
-                        <nav class=\"sb-sidenav-menu-nested nav accordion\" id=\"sidenavAccordionPages\">
-                            <a class=\"nav-link collapsed\" href=\"#\" data-bs-toggle=\"collapse\" data-bs-target=\"#pagesCollapseAuth\" aria-expanded=\"false\" aria-controls=\"pagesCollapseAuth\">
-                                Authentication
-                                <div class=\"sb-sidenav-collapse-arrow\"><i class=\"fas fa-angle-down\"></i></div>
-                            </a>
-                            <div class=\"collapse\" id=\"pagesCollapseAuth\" aria-labelledby=\"headingOne\" data-bs-parent=\"#sidenavAccordionPages\">
-                                <nav class=\"sb-sidenav-menu-nested nav\">
-                                    <a class=\"nav-link\" href=\"login.html\">Login</a>
-                                    <a class=\"nav-link\" href=\"register.html\">Register</a>
-                                    <a class=\"nav-link\" href=\"password.html\">Forgot Password</a>
-                                </nav>
-                            </div>
-                            <a class=\"nav-link collapsed\" href=\"#\" data-bs-toggle=\"collapse\" data-bs-target=\"#pagesCollapseError\" aria-expanded=\"false\" aria-controls=\"pagesCollapseError\">
-                                Error
-                                <div class=\"sb-sidenav-collapse-arrow\"><i class=\"fas fa-angle-down\"></i></div>
-                            </a>
-                            <div class=\"collapse\" id=\"pagesCollapseError\" aria-labelledby=\"headingOne\" data-bs-parent=\"#sidenavAccordionPages\">
-                                <nav class=\"sb-sidenav-menu-nested nav\">
-                                    <a class=\"nav-link\" href=\"401.html\">401 Page</a>
-                                    <a class=\"nav-link\" href=\"404.html\">404 Page</a>
-                                    <a class=\"nav-link\" href=\"500.html\">500 Page</a>
-                                </nav>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class=\"sb-sidenav-menu-heading\">Addons</div>
-                    <a class=\"nav-link\" href=\"charts.html\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-chart-area\"></i></div>
-                        Charts
+                    <div class=\"sb-sidenav-menu-heading\">More</div>
+                    <a class=\"nav-link\" href=\"";
+        // line 53
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("user");
+        yield "\">
+                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-user-group\"></i></div>
+                        Users
                     </a>
                     <a class=\"nav-link\" href=\"tables.html\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-table\"></i></div>
-                        Tables
+                        <div class=\"sb-nav-link-icon\"><i class=\"fab fa-wpforms\"></i></div>
+                        Form submissions
+                    </a>
+                    <a class=\"nav-link\" href=\"";
+        // line 61
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("users");
+        yield "\">
+                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-store\"></i></div>
+                        Stock
                     </a>
                 </div>
             </div>
@@ -164,16 +134,16 @@ class __TwigTemplate_acaa8c1ac12cfe27dda2d10982cf8891 extends Template
             <div class=\"container-fluid px-4\">
                 <h1 class=\"mt-4\">
                     ";
-        // line 116
+        // line 77
         yield from $this->unwrap()->yieldBlock('PageTitle', $context, $blocks);
-        // line 119
+        // line 80
         yield "
                 <div class=\"card mb-4\">
                     <div class=\"card-body\">
                         ";
-        // line 122
+        // line 83
         yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
-        // line 125
+        // line 86
         yield "                    </div>
                 </div>
                 <div style=\"height: 100vh\"></div>
@@ -196,7 +166,7 @@ class __TwigTemplate_acaa8c1ac12cfe27dda2d10982cf8891 extends Template
 </div>
 <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js\" crossorigin=\"anonymous\"></script>
 <script src=\"";
-        // line 146
+        // line 107
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/js/scripts.js"), "html", null, true);
         yield "\"></script>
 </body>
@@ -233,7 +203,7 @@ class __TwigTemplate_acaa8c1ac12cfe27dda2d10982cf8891 extends Template
         return; yield '';
     }
 
-    // line 116
+    // line 77
     public function block_PageTitle($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -243,7 +213,7 @@ class __TwigTemplate_acaa8c1ac12cfe27dda2d10982cf8891 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "PageTitle"));
 
-        // line 117
+        // line 78
         yield "                    Static Navigation</h1>
                 ";
         
@@ -255,7 +225,7 @@ class __TwigTemplate_acaa8c1ac12cfe27dda2d10982cf8891 extends Template
         return; yield '';
     }
 
-    // line 122
+    // line 83
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -265,7 +235,7 @@ class __TwigTemplate_acaa8c1ac12cfe27dda2d10982cf8891 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 123
+        // line 84
         yield "                            template body
                         ";
         
@@ -298,7 +268,7 @@ class __TwigTemplate_acaa8c1ac12cfe27dda2d10982cf8891 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  269 => 123,  259 => 122,  247 => 117,  237 => 116,  225 => 10,  215 => 9,  200 => 146,  177 => 125,  175 => 122,  170 => 119,  168 => 116,  62 => 13,  59 => 12,  57 => 9,  47 => 1,);
+        return array (  239 => 84,  229 => 83,  217 => 78,  207 => 77,  195 => 10,  185 => 9,  170 => 107,  147 => 86,  145 => 83,  140 => 80,  138 => 77,  119 => 61,  108 => 53,  100 => 48,  62 => 13,  59 => 12,  57 => 9,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -349,62 +319,23 @@ class __TwigTemplate_acaa8c1ac12cfe27dda2d10982cf8891 extends Template
         <nav class=\"sb-sidenav accordion sb-sidenav-dark\" id=\"sidenavAccordion\">
             <div class=\"sb-sidenav-menu\">
                 <div class=\"nav\">
-                    <div class=\"sb-sidenav-menu-heading\">Core</div>
-                    <a class=\"nav-link\" href=\"index.html\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-tachometer-alt\"></i></div>
+                        <div class=\"sb-sidenav-menu-heading\">Main</div>
+                    <a class=\"nav-link\" href=\"{{ path('users') }}\">
+                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-chart-line\"></i></div>
                         Dashboard
                     </a>
-                    <div class=\"sb-sidenav-menu-heading\">Interface</div>
-                    <a class=\"nav-link collapsed\" href=\"#\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseLayouts\" aria-expanded=\"false\" aria-controls=\"collapseLayouts\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-columns\"></i></div>
-                        Layouts
-                        <div class=\"sb-sidenav-collapse-arrow\"><i class=\"fas fa-angle-down\"></i></div>
-                    </a>
-                    <div class=\"collapse\" id=\"collapseLayouts\" aria-labelledby=\"headingOne\" data-bs-parent=\"#sidenavAccordion\">
-                        <nav class=\"sb-sidenav-menu-nested nav\">
-                            <a class=\"nav-link\" href=\"layout-static.html\">Static Navigation</a>
-                            <a class=\"nav-link\" href=\"layout-sidenav-light.html\">Light Sidenav</a>
-                        </nav>
-                    </div>
-                    <a class=\"nav-link collapsed\" href=\"#\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapsePages\" aria-expanded=\"false\" aria-controls=\"collapsePages\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-book-open\"></i></div>
-                        Pages
-                        <div class=\"sb-sidenav-collapse-arrow\"><i class=\"fas fa-angle-down\"></i></div>
-                    </a>
-                    <div class=\"collapse\" id=\"collapsePages\" aria-labelledby=\"headingTwo\" data-bs-parent=\"#sidenavAccordion\">
-                        <nav class=\"sb-sidenav-menu-nested nav accordion\" id=\"sidenavAccordionPages\">
-                            <a class=\"nav-link collapsed\" href=\"#\" data-bs-toggle=\"collapse\" data-bs-target=\"#pagesCollapseAuth\" aria-expanded=\"false\" aria-controls=\"pagesCollapseAuth\">
-                                Authentication
-                                <div class=\"sb-sidenav-collapse-arrow\"><i class=\"fas fa-angle-down\"></i></div>
-                            </a>
-                            <div class=\"collapse\" id=\"pagesCollapseAuth\" aria-labelledby=\"headingOne\" data-bs-parent=\"#sidenavAccordionPages\">
-                                <nav class=\"sb-sidenav-menu-nested nav\">
-                                    <a class=\"nav-link\" href=\"login.html\">Login</a>
-                                    <a class=\"nav-link\" href=\"register.html\">Register</a>
-                                    <a class=\"nav-link\" href=\"password.html\">Forgot Password</a>
-                                </nav>
-                            </div>
-                            <a class=\"nav-link collapsed\" href=\"#\" data-bs-toggle=\"collapse\" data-bs-target=\"#pagesCollapseError\" aria-expanded=\"false\" aria-controls=\"pagesCollapseError\">
-                                Error
-                                <div class=\"sb-sidenav-collapse-arrow\"><i class=\"fas fa-angle-down\"></i></div>
-                            </a>
-                            <div class=\"collapse\" id=\"pagesCollapseError\" aria-labelledby=\"headingOne\" data-bs-parent=\"#sidenavAccordionPages\">
-                                <nav class=\"sb-sidenav-menu-nested nav\">
-                                    <a class=\"nav-link\" href=\"401.html\">401 Page</a>
-                                    <a class=\"nav-link\" href=\"404.html\">404 Page</a>
-                                    <a class=\"nav-link\" href=\"500.html\">500 Page</a>
-                                </nav>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class=\"sb-sidenav-menu-heading\">Addons</div>
-                    <a class=\"nav-link\" href=\"charts.html\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-chart-area\"></i></div>
-                        Charts
+                    <div class=\"sb-sidenav-menu-heading\">More</div>
+                    <a class=\"nav-link\" href=\"{{ path('user') }}\">
+                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-user-group\"></i></div>
+                        Users
                     </a>
                     <a class=\"nav-link\" href=\"tables.html\">
-                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-table\"></i></div>
-                        Tables
+                        <div class=\"sb-nav-link-icon\"><i class=\"fab fa-wpforms\"></i></div>
+                        Form submissions
+                    </a>
+                    <a class=\"nav-link\" href=\"{{ path('users') }}\">
+                        <div class=\"sb-nav-link-icon\"><i class=\"fas fa-store\"></i></div>
+                        Stock
                     </a>
                 </div>
             </div>

@@ -3,6 +3,8 @@
 declare(strict_types=1);
 
 namespace DoctrineMigrations;
+namespace App\Migrations;
+
 
 use Doctrine\DBAL\Schema\Schema;
 use Doctrine\Migrations\AbstractMigration;

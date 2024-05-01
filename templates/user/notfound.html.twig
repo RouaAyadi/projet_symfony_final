@@ -1,0 +1,8 @@
+{% extends 'template.html.twig' %}
+
+{% block PageTitle %}Erreur{% endblock %}
+
+{% block body %}
+    <p>La page que vous cherchez n'existe pas</p>
+    <a href="{{ path('user') }}">Retour à l'accueil</a>
+{% endblock %}

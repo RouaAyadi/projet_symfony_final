@@ -67,6 +67,6 @@ class __TwigTemplate_8ca5b825839d6bc51ba69af4c1094744 extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "parent.html.twig", "C:\\Users\\lenovo\\Documents\\GitHub\\projet_final\\templates\\parent.html.twig");
+        return new Source("", "parent.html.twig", "C:\\symfony\\projet_final\\templates\\parent.html.twig");
     }
 }

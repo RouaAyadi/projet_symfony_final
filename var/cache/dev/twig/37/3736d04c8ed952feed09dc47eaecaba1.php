@@ -90,7 +90,7 @@ class __TwigTemplate_94835c8e8edd40913f3446480c95fded extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 8
-        yield "    
+        yield "
     bodyyyyyyyyyyy
 ";
         
@@ -157,7 +157,7 @@ class __TwigTemplate_94835c8e8edd40913f3446480c95fded extends Template
 {% endblock %}
 
 {% block body %}
-    
+
     bodyyyyyyyyyyy
 {% endblock %}
 
